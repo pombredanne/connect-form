@@ -3,13 +3,16 @@
 
 Connect Form is a multipart / urlencoded form parsing middleware utilizing [node-formidable](http://github.com/felixge/node-formidable) behind the scenes.
 
- This module is now deprecated and will eventually be removed, Connect >= 1.8.0 `bodyParser()` supports multipart/form-data, populating `req.body` much like application/json. An alternative to the core's `bodyParser()` is [parted](https://github.com/visionmedia/parted).
+This module is now deprecated and will eventually be removed, Connect >= 1.8.0 `bodyParser()` supports multipart/form-data, populating `req.body` much like application/json. An alternative to the core's `bodyParser()` is [parted](https://github.com/visionmedia/parted).
+
+<i><b>This module has indeed disappeared upstream.</b> This fork preserves it
+since our app still relies on it. (We'll upgrade soon enough.)<i>
 
 ## Installation
 
 via npm:
 
-	$ npm install connect-form
+	$ npm install https://github.com/thingdom/connect-form/tarball/master
 
 ## Example
 
